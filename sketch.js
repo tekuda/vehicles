@@ -2,7 +2,7 @@
 var joe;
 var vehicles;
 function setup() {
-    createCanvas(750, 500);
+    createCanvas(screen.width, screen.height-170);
     resetEverything();
 }
 
@@ -15,6 +15,6 @@ function draw() {
     vehicles.update();
 }
 function resetEverything(){
-    vehicles=new Vehicles(width,height,800);
+    vehicles=new Vehicles(width,height,500);
     fill(127);
 }

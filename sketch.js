@@ -15,6 +15,6 @@ function draw() {
     vehicles.update();
 }
 function resetEverything(){
-    vehicles=new Vehicles(width,height,500);
+    vehicles=new Vehicles(width,height,1200);
     fill(127);
 }
